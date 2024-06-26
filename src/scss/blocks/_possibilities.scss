@@ -1,0 +1,140 @@
+/*начало стилей для possibilities*/
+.possibilities{
+    margin-bottom: 67px;
+}
+
+.possibilities h2{
+    margin-bottom: 45px;
+    text-align: center;
+    font-family: "Rubik";
+    font-size: 32px;
+    font-weight: 700;
+    @media screen and (max-width:576px) {
+        font-size: 27px;
+        margin-bottom: 25px;
+    }
+}
+
+.possibilities__card-item{
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.possibilities p{
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.possibilities img{
+    margin-bottom: 26px;
+    padding-top: 48px;
+}
+
+.possibilities__card1{
+    text-align: center;
+    background-color: #DFE1FF;
+    border-radius: 10px;/*закругление рамки*/
+    box-shadow:#DFE1FF 5px 5px 5px 5px ;
+    padding-top: 48px;
+    padding-bottom: 61px;
+}
+
+.possibilities__card2{
+    padding-top: 48px;
+    padding-bottom: 61px;
+    text-align: center;
+    background-color: #FFE1AD;
+    border-radius: 10px;/*закругление рамки*/
+    box-shadow:#FFE1AD 5px 5px 5px 5px ;
+}
+
+.possibilities__card3{
+    padding-top: 49px;
+    padding-bottom: 33px;
+    text-align: center;
+    background-color: #DFE1FF;
+    border-radius: 10px;/*закругление рамки*/
+    box-shadow:#DFE1FF 5px 5px 5px 5px ;
+}
+
+.possibilities__card4{
+    padding-top: 49px;
+    padding-bottom: 87px;
+    text-align: center;
+    background-color: #FFE1AD;
+    border-radius: 10px;/*закругление рамки*/
+    box-shadow:#FFE1AD 5px 5px 5px 5px ;
+}
+
+.possibilities1{
+    @media screen and (max-width:576px){
+        display: none;
+    }
+}
+
+.possibilitites2{
+    overflow:hidden;  /*убрали скролл*/
+    overflow-y:hidden;  /*для вертикального*/
+    overflow-x:hidden;  /*для горизонтального*/
+    @media screen and (min-width:576px){
+        display: none;
+    }
+}
+
+.image-slider__card0{
+    background-color: #DFE1FF;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 61px;
+    border-radius: 10px;
+}
+  
+.image-slider img{
+    margin-bottom: 26px;
+}
+  
+.image-slider__card-text{
+    margin-bottom: 18px;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+  
+.image-slider__card-p{
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 0px;
+}
+  
+.image-slider__card1{
+    background-color: #FFE1AD;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 61px;
+    border-radius: 10px;
+}
+  
+.image-slider__card2{
+    background-color: #DFE1FF;
+    text-align: center;
+    padding-top: 49px;
+    padding-bottom: 33px;
+    border-radius: 10px;
+}
+  
+.image-slider__card3{
+    background-color: #FFE1AD;
+    text-align: center;
+    padding-top: 49px;
+    padding-bottom: 87px;
+    border-radius: 10px;
+}
+
+/*конец стилей для possibilities*/
